@@ -354,3 +354,14 @@ footer {
     background-color: #0b0d17;
     padding: 50px 0px;
 }
+
+.hero_banner,
+.why_donate01_img,
+.why_donate02_img {
+    display: none;
+}
+.hero_banner[data-order="1"],
+.why_donate01_img[data-order="1"],
+.why_donate02_img[data-order="1"] {
+    display: block;
+}
